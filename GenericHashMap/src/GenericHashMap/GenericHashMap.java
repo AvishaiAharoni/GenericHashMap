@@ -19,7 +19,7 @@ import GenericPairs.GenericPair;;
  * @param <K> - key
  * @param <V> - value
  */
-public class GenericHashMap<K, V> implements Map<K, V> {										
+public class GenericHashMap<K, V> implements Map<K, V> {	
 	private List<ArrayList<GenericPair<K, V>>> myHash;										
 	private int size;										
 	private int modCount;
